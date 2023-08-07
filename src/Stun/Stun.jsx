@@ -14,7 +14,7 @@ const Stun = () => {
             <span> Best Developer</span>. <h6>Here I Am!</h6>
           </h2>
 
-          <Link to="about" className="c-l">
+          <Link to="/about" className="c-l">
             <button>Read More</button>
           </Link>
         </div>
