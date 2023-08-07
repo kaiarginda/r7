@@ -53,7 +53,7 @@ const About = () => {
               }}
             />
           </p>
-          <Link to="/r4" className="c-l bcbt">
+          <Link to="/r7" className="c-l bcbt">
             <button>Back To Website</button>
           </Link>
         </div>
