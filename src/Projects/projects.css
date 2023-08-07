@@ -1,0 +1,119 @@
+.projects-item {
+  transition: all 0.3s ease;
+  padding-top: 25px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pr-box {
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.projects-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.projects-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.pr-box:hover p,
+.pr-box:hover .pr-icon {
+  opacity: 1;
+  transform: rotateY(-180deg);
+}
+
+.pr-box:hover .projects-item {
+  background-image: none;
+  transform: rotateY(180deg);
+  background-color: rgb(82, 141, 80);
+}
+
+.projects-item p,
+.pr-icon {
+  transition: all 0.5s ease;
+  color: black !important
+  ;
+  opacity: 0;
+}
+
+.p-1 {
+  background-image: url(../../pizza.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.p-2 {
+  background-image: url(../../car.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.p-3 {
+  background-image: url(../../house.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pr-icon {
+  font-size: 70px;
+  padding: 15px;
+  background-color: #b1ab9e;
+  border-radius: 50%;
+  color: white !important
+  ;
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1190px) {
+  .projects-main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pr-icon {
+  color: white;
+  font-weight: 900 !important;
+}
+
+@media (max-width: 350px) {
+  .projects-item {
+    width: 95% !important;
+  }
+}
+
+.projects-item p {
+  color: white !important;
+  font-family: monospace;
+}
+
+.pi-cl {
+  font-size: 24px;
+  color: black !important;
+}

@@ -1,0 +1,54 @@
+.stun-main {
+  background-image: url("https://www.smgraph.co.uk/wp-content/uploads/2017/01/portfolio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 65px;
+}
+
+.stun-main h2 {
+  max-width: 900px;
+  font-size: 60px;
+
+  font-weight: 100;
+}
+
+.stun-main h2 span {
+  color: #c8b288;
+}
+
+.stun-main h4 {
+  font-size: 24px;
+
+  font-weight: 400;
+}
+
+.stun-main button {
+  padding: 16px 60px;
+  color: white;
+  background-color: #c8b288;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 100 !important;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+@media (max-width: 900px) {
+  .stun-main {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
